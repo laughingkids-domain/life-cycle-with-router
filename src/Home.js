@@ -23,6 +23,11 @@ class Home extends React.Component {
   }
   
   /* do render at this step */
+  componentWillMount(){
+    console.log('componentWillMount() is called !');
+  }
+  
+  /* do render at this step */
   componentDidMount(){
     console.log('componentDidMount() is called !');
   }
